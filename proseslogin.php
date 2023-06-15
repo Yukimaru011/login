@@ -21,8 +21,8 @@ if($cek > 0) {
    $_SESSION['nama'] = $data['nama'];
    $_SESSION['status'] = "sudah_login";
    $_SESSION['id_login'] = $data['id'];
-   header("location:halaman_admin.php");
+   header("location:index.php");
 } else {
-   header("location:formlogin.php?pesan=Gagal login data tidak ditemukan.");
+   header("location:formlogin.php?pesan = Gagal login data tidak ditemukan.");
 }
 ?>
